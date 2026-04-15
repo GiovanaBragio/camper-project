@@ -7,7 +7,7 @@ const MapPage = () => {
         <h1>COMO A CAMPER VALORIZA O <span>TRABALHO FEMININO</span></h1>
       </div>
       <div className="map">
-        <img src="src/assets/imgs/World.png" alt="World" />
+        <img src="/World.png" alt="World" />
       </div>
     </div>
   )

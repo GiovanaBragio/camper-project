@@ -9,49 +9,49 @@ const Authors = () => {
     {
       name: "VERONIQUE BRANQUINHO",
       texto: "A coleção cápsula criada pela designer que captura a ideia do design Belga tendo linhas simples e minimalistas mas sem deixar de ser impressionante e de “tirar o fôlego” (palavras da própria marca).",
-      imagem: "src/assets/imgs/veronique.png", 
+      imagem: "/veronique.png", 
       trabalhos: [
-        "src/assets/imgs/trabalhos-veronique1.png",
-        "src/assets/imgs/trabalhos-veronique2.png",
-        "src/assets/imgs/trabalhos-veronique2.png",
+        "/trabalhos-veronique1.png",
+        "/trabalhos-veronique2.png",
+        "/trabalhos-veronique2.png",
       ]
     },
     {
       name: "BENEDETTA TAGLIABUE",
       texto: "A arquiteta italiana trabalhou com a marca na criação da loja localizada em Barcelona, Espanha, idealizada a partir dos valores e relação da marca com Maiorca. O ambiente composto com couro e representações acerca dos terrenos irregulares, referenciando diretamente os produtos e a ilha em que a marca surgiu.",
-      imagem: "src/assets/imgs/benedetta.png",
+      imagem: "/benedetta.png",
       trabalhos: [
-        "src/assets/imgs/t-bebedetta1.png",
-        "src/assets/imgs/t-bebedetta2.png",
-        "src/assets/imgs/t-bebedetta3.png",
+        "/t-bebedetta1.png",
+        "/t-bebedetta2.png",
+        "/t-bebedetta3.png",
       ]
     },
     {
       name: "Maria Blaise",
       texto: "A Maria que é conhecida pelas suas produções voltadas ao movimento e as possibilidades que diferentes materiais tem a oferecer, se ligando a simplicidade, beleza e sustentabilidade (ideais que são compartilhados com a marca). Na sua colaboração com a Camper foram criadas botas que que possuem dobras à volta da perna do calçado. ",
-      imagem: "src/assets/imgs/maria-blaise.png",
+      imagem: "/maria-blaise.png",
       trabalhos: [
-        "src/assets/imgs/trabalhos-maria.png",
+        "/trabalhos-maria.png",
       ]
     },
     {
       name: "Tove Jansson",
       texto: "Tove Jansson foi uma artista finlandesa multitalentosa, escritora, ilustradora e criadora dos Moomins, conhecida por sua sensibilidade, imaginação e força narrativa. Em sua colaboração especial com Camper, seu universo visual ganha novas interpretações: formas suaves, traços poéticos e referências ao mundo lúdico que marcaram sua carreira aparecem transformados em design, moda e objetos.",
-      imagem: "src/assets/imgs/moomin.png",
+      imagem: "/moomin.png",
       trabalhos: [
-        "src/assets/imgs/trabalhos-tove1.png",
-        "src/assets/imgs/trabalhos-tove2.png",
-        "src/assets/imgs/trabalhos-tove3.png",
+        "/trabalhos-tove1.png",
+        "/trabalhos-tove2.png",
+        "/trabalhos-tove3.png",
       ]
     },
     {
       name: "RRACHEL COMEY",
       texto: "A ideia inicial da campanha buscava juntar algo feito de forma manual com produção em massa, resultando em uma coleção que junta o conceito da marca e sua relação com o mediterraneo com a estética vintage da Comey",
-      imagem: "src/assets/imgs/rachel.png",
+      imagem: "/rachel.png",
       trabalhos: [
-        "src/assets/imgs/t-rachel1.png",
-        "src/assets/imgs/t-rachel2.png",
-        "src/assets/imgs/t-rachel1.png",
+        "/t-rachel1.png",
+        "/t-rachel2.png",
+        "/t-rachel1.png",
       ]
     },
   ];
@@ -77,19 +77,19 @@ const Authors = () => {
           onSlideChange={setActive}
         >
           <Carousel.Slide>
-            <img src="src/assets/imgs/veronique.png" alt="veronique" />
+            <img src="/veronique.png" alt="veronique" />
           </Carousel.Slide>
           <Carousel.Slide>
-            <img src="src/assets/imgs/benedetta.png" alt="veronique" />
+            <img src="/benedetta.png" alt="veronique" />
           </Carousel.Slide>
           <Carousel.Slide>
-            <img src="src/assets/imgs/maria-blaise.png" alt="veronique" />
+            <img src="/maria-blaise.png" alt="veronique" />
           </Carousel.Slide>
           <Carousel.Slide>
-            <img src="src/assets/imgs/moomin.png" alt="veronique" />
+            <img src="/moomin.png" alt="veronique" />
           </Carousel.Slide>
           <Carousel.Slide>
-            <img src="src/assets/imgs/rachel.png" alt="veronique" />
+            <img src="/rachel.png" alt="veronique" />
           </Carousel.Slide>
         </Carousel>
      </div>
