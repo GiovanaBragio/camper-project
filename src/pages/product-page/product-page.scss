@@ -1,0 +1,63 @@
+.product-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 35px;
+
+  .pin {
+    width: 40%;
+    padding: 0 40px;
+
+    img {
+      width: 462px;
+    }
+  }
+
+  .product {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding-left: 96px;
+
+    .title-product {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      h1 {
+        text-transform: uppercase;
+        font-weight: normal;
+        margin: 4px 0;
+      }
+
+      .passo{
+        color: #D42D1F;
+      }
+    }
+
+    .description-product {
+      margin: 24px 0;
+      width: 432px;
+      line-height: 31.68px;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 261px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #D42D1F;
+  }
+}

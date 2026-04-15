@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid #FAFAFAF2;
+  height: 78px;
+
+  div {
+    width: 50%;
+    img {
+      padding: 32px;
+    }
+  }
+
+  span {
+    width: 50%;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}
