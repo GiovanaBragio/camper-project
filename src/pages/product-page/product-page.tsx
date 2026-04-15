@@ -3,7 +3,7 @@ const ProductPage = () => {
   return (
     <div className="product-page">
       <div className="pin">
-        <img src="/pin.png" alt="pin" />
+        <img src="./pin.png" alt="pin" />
       </div>
       <div className="product">
         <div className="title-product">
