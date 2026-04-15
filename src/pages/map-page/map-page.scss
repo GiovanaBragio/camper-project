@@ -15,10 +15,34 @@
       font-size: 24px;
       font-weight: normal;
       margin: 4px;
+      text-align: center;
     }
 
     span {
       color: #D42D1F;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* RESPONSIVIDADE PARA CELULAR */
+  @media (max-width: 600px) {
+    .title-map {
+      padding: 20px;
+
+      h1 {
+        font-size: 20px;
+        line-height: 26px;
+      }
+
+      span {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 100%;
     }
   }
 }

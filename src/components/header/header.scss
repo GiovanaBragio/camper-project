@@ -9,8 +9,11 @@
 
   div {
     width: 50%;
+
     img {
       padding: 32px;
+      max-width: 100%;
+      height: auto;
     }
   }
 
@@ -18,5 +21,31 @@
     width: 50%;
     font-weight: normal;
     font-size: 14px;
+  }
+
+  /* RESPONSIVIDADE PARA CELULAR */
+  @media (max-width: 600px) {
+    height: auto;
+    padding: 16px 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+
+    div {
+      width: 100%;
+
+      img {
+        padding: 0;
+        width: 120px; /* ajuste opcional */
+      }
+    }
+
+    span {
+      width: 100%;
+      font-size: 13px;
+      line-height: 18px;
+      padding: 0 20px;
+    }
   }
 }

@@ -39,10 +39,41 @@
   span {
     display: flex;
     gap: 5px;
-    
+
     a {
       text-decoration: underline;
       color: white;
+    }
+  }
+
+  /* RESPONSIVIDADE PARA CELULAR */
+  @media (max-width: 600px) {
+    padding: 20px;
+
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .title {
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .behance {
+      justify-content: center;
+    }
+
+    span {
+      justify-content: center;
+      flex-wrap: wrap;
     }
   }
 }
